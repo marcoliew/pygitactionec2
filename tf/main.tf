@@ -16,7 +16,7 @@ data "aws_vpc" "stagingtest" {
 # }
 
 resource "aws_ecr_repository" "cs" {
-  name                 = "counter-service"
+  name                 = "pygitactionec2"
   image_tag_mutability = "MUTABLE"
   force_delete         = true
 
